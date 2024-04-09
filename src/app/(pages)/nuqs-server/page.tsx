@@ -10,6 +10,12 @@ import {
 } from "@/components/ui/card";
 import { Code } from "@/components/ui/code";
 import { Navbar } from "@/components/ui/navigation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Server Side Search Params",
+  description: "Server Side Search Params",
+}
 
 interface Props {
   searchParams: {

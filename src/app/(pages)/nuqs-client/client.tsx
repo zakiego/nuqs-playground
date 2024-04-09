@@ -10,6 +10,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useDebouncedCallback } from "use-debounce";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Client Side Search Params",
+  description: "Client Side Search Params",
+}
 
 export function NuqsInput() {
   const [keyword, setKeyword] = useQueryState("keyword", parseAsString);
