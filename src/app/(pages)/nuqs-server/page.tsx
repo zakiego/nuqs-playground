@@ -15,7 +15,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Server Side Search Params",
   description: "Server Side Search Params",
-}
+};
 
 interface Props {
   searchParams: {
@@ -54,7 +54,7 @@ export default async function Page(props: Props) {
       <p className="mt-5">
         Read more about{" "}
         <a
-          href="http://localhost:3000/nuqs-server"
+          href="https://nuqs.47ng.com/docs/options#shallow"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
@@ -63,17 +63,17 @@ export default async function Page(props: Props) {
         </a>
       </p>
 
-				<p className="mt-2 mb-10">
-				Source code:{" "}
-				<a
-					href="https://github.com/zakiego/nuqs-playground/blob/main/src/app/(pages)/nuqs-server/client.tsx"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="underline"
-					>
-						nuqs-server/client.tsx
-					</a>
-			</p>
+      <p className="mt-2 mb-10">
+        Source code:{" "}
+        <a
+          href="https://github.com/zakiego/nuqs-playground/blob/main/src/app/(pages)/nuqs-server/client.tsx"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          nuqs-server/client.tsx
+        </a>
+      </p>
 
       <NuqsInput />
 
