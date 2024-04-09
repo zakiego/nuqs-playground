@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
 export default function Page() {
-	redirect("/nuqs-server");
-	return <></>;
+  redirect("/nuqs-server");
+  return <></>;
 }
