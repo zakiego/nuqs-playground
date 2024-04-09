@@ -45,7 +45,7 @@ export default async function Page(props: Props) {
         <b>and trigger a new page load.</b> So, you can access search params
         from server-side component.
       </p>
-      <p className="mt-5 mb-10">
+      <p className="mt-5">
         Read more about{" "}
         <a
           href="http://localhost:3000/nuqs-server"
@@ -56,6 +56,18 @@ export default async function Page(props: Props) {
           Shallow Routing
         </a>
       </p>
+
+				<p className="mt-2 mb-10">
+				Source code:{" "}
+				<a
+					href="https://github.com/zakiego/nuqs-playground/blob/main/src/app/(pages)/nuqs-server/client.tsx"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="underline"
+					>
+						nuqs-server/client.tsx
+					</a>
+			</p>
 
       <NuqsInput />
 
