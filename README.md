@@ -1,4 +1,6 @@
-# Search Params with nuqs
+# Search Params with nuqs Playground
+
+Live demo: [nuqs-playground.vercel.app](https://nuqs-playground.vercel.app/)
 
 Playground for the [nuqs](https://nuqs.47ng.com/) library.
 
